@@ -24,9 +24,11 @@ namespace GITHUB01
             double soucet = a + b;
             double rozdil = a - b;
             double soucin = a * b;
+            double podil = a / b;
             MessageBox.Show("Součet je " + soucet);
             MessageBox.Show("Rozdil je " + rozdil);
             MessageBox.Show("Součin je " + soucin);
+            MessageBox.Show("Podil je " + podil);
         }
     }
 }
